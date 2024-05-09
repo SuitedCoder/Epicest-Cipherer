@@ -1,0 +1,15 @@
+<script type="text/javascript" src="cipher.js"></script>
+<body style="text-align: center;">
+	<h2 style="font-family: arial; font-size: 30px;">Did bro just made a cipherer?</h2>
+	<textarea id="ciphers" name="cipher" style="width:70vw; height: 150px;" placeholder="Text to be ciphered"></textarea>
+	<br>
+	<br>
+	<input type="text" id="codes" name="codes" style="width:50vw; height: 50px;" placeholder="Enter code"></input>
+	<br>
+	<br>
+	<textarea id="result" name="result" style="width:70vw; height: 150px;" placeholder="Text to be deciphered"></textarea>
+	<br>
+	<br>
+	<button onclick="encrypt(document.getElementById('ciphers').value)">CIPHER!</button>
+	<button onclick="decrypt(document.getElementById('result').value)">DECIPHER!</button>
+</body>
